@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-tailwind-css",
+  "name": "gds-gatsby",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:melanienolan/gatsby-starter-tailwind-css.git",
-  "author": "Melanie Nolan <melly.nolan@gmail.com>",
+  "repository": "git@github.com:ieatmangos/",
+  "author": "Gabriel Loubier",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
