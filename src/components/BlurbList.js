@@ -78,7 +78,7 @@ const data = [
     extras: [
       `JS was always just a gateway drug, building the internet's democracy is the end game. `,
       `I'm 5 years deep into figuring out how my way to contribute. Learning chess pieces before playing the game. 5 years chasing the wave of Bitcoin. I’ll use web 3.0 to build the future I believe in. It's not if, but when.`,
-      `When I watched your videos words, “Betting against engineering is betting against life itself”. I realized the time is now. I'm in. Hoodies are in charge now.`,
+      `When I watched your videos and heard, “Betting against engineering is betting against life itself”. I realized the time is now. I'm in. Hoodies are in charge now.`,
       `How can I help?`,
     ],
     extrasWidth: `sm:w-14`,
