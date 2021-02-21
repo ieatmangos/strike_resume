@@ -3,7 +3,7 @@ import Dot from "./Dot"
 import LinkOut from "./LinkOut"
 
 const TextArea = ({ title, subtitle, li, link, bg }) => {
-  const liStyle = `text-lg text-gray-400 flex gap-3 items-center my-4`
+  const liStyle = `text-lg text-gray-400 flex items-start sm:items-center my-4`
   return (
     <div className="max-w-15 px-6 md:pl-8 lg:pl-10 mt-8">
       <div className="flex items-center gap-4 group">
@@ -21,7 +21,7 @@ const TextArea = ({ title, subtitle, li, link, bg }) => {
         {li.map(li => (
           <li className={`${liStyle}`}>
             <Dot />
-            {li}
+        <span className='ml-2'>{li}</span>{li}
           </li>
         ))}
       </ul>

@@ -6,7 +6,7 @@ const data = [
     year: 1991,
     age: 0,
     text: `Gabriel Loubier`,
-    orientation: `flex flex-col sm:flex-row  gap-4 items-center mr-auto sm:mr-0 `,
+    orientation: `flex flex-col sm:flex-row  gap-4 sm:items-center mr-auto sm:mr-0 `,
     width: `w-12`,
   },
   {
@@ -92,7 +92,7 @@ export default function BlurbList() {
       <h3 className="p-6 text-gray-200  border-t border-gray-200 text-2xl">
         LIFE
       </h3>
-      <div className="flex flex-col gap-9 items-center  px-6 md:px-8 lg:px-10">
+      <div className="flex flex-col items-center  px-6 md:px-8 lg:px-10">
         {data.map((blurb, index) => {
           return <Blurb key={`blurd-${index}`} data={blurb} />
         })}
@@ -106,7 +106,7 @@ function Blurb({
   data: { width, year, age, text, orientation, extras, extrasWidth },
 }) {
   return (
-    <div className={`${width} ${orientation} border-b border-blue-500 pb-4 `}>
+    <div className={`${width} ${orientation} border-b border-blue-500 pb-4 my-4 sm:my-6 `}>
       <Date age={age} year={year} />
       <div style={{ lineHeight: "32px" }} className="text-gray-600">
         {text}
