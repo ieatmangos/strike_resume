@@ -8,6 +8,10 @@ module.exports = {
     ...gdsDesignSystem,
     extend: {},
   },
-  variants: {},
+  variants: {
+    extend: {
+      textColor: ['group-hover']
+    },
+  },
   plugins: [],
 }

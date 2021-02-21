@@ -6,19 +6,27 @@ const { theme } = resolveConfig(tailwindConfig)
 
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter Tailwind CSS",
-    author: "Melanie Nolan",
-    description: "A Gatsby starter to set you up with Tailwind CSS",
+    title: "Strike Job Application",
+    author: "Gabriel Loubier",
+    description: "",
   },
   plugins: [
     "gatsby-plugin-react-helmet",
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        name: "Gatsby Starter Tailwind CSS",
-        short_name: "Gatsby Starter Tailwind CSS",
+        name: "Loubier: Stike Resume",
+        short_name: "Loubier: Stike Resume",
         start_url: "/",
         icon: "static/icon.svg",
+      },
+    },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/images/`,
       },
     },
     {

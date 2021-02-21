@@ -6,10 +6,8 @@ const Layout = ({ children }) => {
   return (
     <>
       <SEO />
-      <div className="flex flex-col min-h-screen bg-white px-6 md:px-8 lg:px-10 font-heading">
-        <Nav />
+      <div className="flex flex-col min-h-screen bg-white  font-heading">
         {children}
-        <Footer />
       </div>
     </>
   )
