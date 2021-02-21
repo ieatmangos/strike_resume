@@ -87,7 +87,7 @@ const data = [
 
 export default function BlurbList() {
   return (
-    <div className='my-4'>
+    <div className='my-4 bg-gray-100'>
 
       <h3 className="p-6 text-gray-200  border-t border-gray-200 text-2xl">
         LIFE
