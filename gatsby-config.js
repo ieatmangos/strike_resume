@@ -1,3 +1,4 @@
+require("dotenv").config()
 const resolveConfig = require("tailwindcss/resolveConfig")
 const tailwindConfig = require("./tailwind.config.js")
 
@@ -26,5 +27,15 @@ module.exports = {
         postCssPlugins: [require("tailwindcss"), require("autoprefixer")],
       },
     },
+
+      {
+        resolve: "gatsby-plugin-web-font-loader",
+        options: {
+          typekit: {
+            id: `npa4sch`,
+          },
+        },
+      },
+
   ],
 }

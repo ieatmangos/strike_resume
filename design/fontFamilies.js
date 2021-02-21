@@ -48,8 +48,8 @@ const families = [
 ];
 
 const fontFamily = {
-  heading: ["interstate", "system-ui"],
-  body: ["source-sans-pro", "system-ui"],
+  heading: ["Effra", "system-ui"],
+  body: ["FF Meta Serif"],
 };
 
 module.exports = fontFamily

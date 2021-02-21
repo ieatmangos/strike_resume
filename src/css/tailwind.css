@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* 
+body {
+    @apply font-body;
+} */
+
+
+.year {
+    color: linear-gradient(69.05deg, #FFFFFF -43.94%, rgba(255, 255, 255, 0) 127.15%),linear-gradient(0deg, #CFD3DA, #CFD3DA);
+    @apply text-gray-200 opacity-75;
+
+}
