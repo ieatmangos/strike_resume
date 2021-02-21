@@ -2,14 +2,14 @@ import React from "react"
 
 const ImageGrid = ({ images, bg }) => {
   return (
-    <div className={`flex py-8 px-6 md:px-8 lg:px-10 ${bg}`}>
+    <div className={`flex p-4 sm:py-8 sm:px-6 md:px-8 lg:px-10 ${bg}`}>
       <div className="w-12" />
       <div
         style={{
           gridTemplateColumns: `1fr 2fr `,
           gridTemplateRows: `auto`,
         }}
-        className="grid gap-5 "
+        className="grid gap-4 sm:gap-5 "
       >
         {images.map(image => {
           return (
