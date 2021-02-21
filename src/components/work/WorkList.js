@@ -12,6 +12,7 @@ import bears4 from "../../images/work/bears-4.png"
 import bears2 from "../../images/work/bears-2.png"
 import bears3 from "../../images/work/bears-3.png"
 import Work from "./Work"
+import ContactCard from "../ContactCard"
 
 export default function WorkList() {
   return (
@@ -23,6 +24,7 @@ export default function WorkList() {
       <Work data={sbData} />
       <Work data={etData} />
       <Work data={bearsData} />
+      <ContactCard/>
     </div>
   )
 }

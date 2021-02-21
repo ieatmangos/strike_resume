@@ -1,4 +1,5 @@
 import React from "react"
+import ContactCard from "./ContactCard"
 
 const data = [
   {
@@ -39,32 +40,32 @@ const data = [
   {
     year: 2016,
     age: 26,
-    text: `I met Bitcoin when I was desperate for a meaningful career. If I could catch up, I could ride with the momentum towards glory. I had $10k in the bank. I figured I'd have more time to figure out how if I wasn't paying rent in America. I quit, sold everything and moved to Vietnam. I was determined to work in the blockchain industry, as a restaurant manager.`,
+    text: `I met Bitcoin when I was desperate for a meaningful career. If I could catch up, I could ride with the momentum. I had $10k in the bank. I figured I'd have more time if I wasn't paying rent in America. I quit, sold everything and moved to Vietnam. I was determined to work in the blockchain industry, as a restaurant manager.`,
     orientation: `flex flex-col sm:flex-row gap-5 items-start ml-auto`,
     width: "lg:w-16",
   },
   {
     year: 2017,
     age: 26,
-    text: `I started wroting blogs for ICO’s. I found a salary as a marketing intern with Rivetz. It was all about hardware attestation using the phone’s T.E.E. as  ‘blockchain worthy’ transactional intent. I was able to travel for 2 continuous years in over 8 countries. I filled up my passport as I wrote about their hardware security and its role in web 3.0. This is where I learned to trust the process and enjoy the ride.`,
+    text: `I started writing blogs for ICO’s. I found a salary as a marketing intern with Rivetz. It was all about hardware attestation using the phone’s T.E.E. as  ‘blockchain worthy’ transactional intent. I was able to travel for 2 continuous years in over 8 countries. I filled up my passport as I wrote about their hardware security and its role in web 3.0. This is where I learned to trust the process and enjoy the ride.`,
     orientation: `flex flex-col sn:flex-row gap-5 items-start xl:mr-13`,
     width: `sm:w-14`,
     extras: [
-      `Rivetz failed to deliver a product and went under. This is where I became familiar with the nuance between believing in an idea and building an idea. I am not a marketer, I am not a cat. I am a problem solver. `,
+      `Rivetz failed to deliver a product and went under. So this is also where I learned the nuance between believing in an idea and actually building it. I am not a marketer, I am not a cat. I am a problem solver. `,
     ],
     extrasWidth: `sm:w-13`,
   },
   {
     year: 2018,
     age: 27,
-    text: `Unemployed with a $25k run way, I decide I will teach myself how to code. Go big or go home, I commit.`,
+    text: `Unemployed with $25k in savings as a run way, I decide I will teach myself how to code. Go big or go home, I commit.`,
     orientation: `flex flex-col gap-5 items-start `,
     width: `sm:w-13`,
   },
   {
     year: 2020,
     age: 28,
-    text: `React Developer at Trellis, an ecommerce agency. My client work includes building headless Next and Gatsby sites. My promotion to their Innovation Team has me buiding a drag and drop ‘website builder’ with inline editing. Users write tailwind css while receving instant feedback. One click and they export clean and responsive html & css. “Designers handoff code, not figma files”. It's sick.`,
+    text: `React Developer at Trellis, an ecommerce agency. My client work includes building headless Next and Gatsby sites. My recent promotion to their Innovation Team has me buiding a drag and drop ‘website builder’ with inline editing. “Designers handoff code, not figma files”. It's sick, I show screenshots below.`,
     width: `sm:w-14`,
     orientation: `flex flex-col gap-5 ml-auto`,
   },
@@ -76,8 +77,9 @@ const data = [
     orientation: `flex flex-col gap-5 mr-auto sm:ml-8`,
     extras: [
       `JS was always just a gateway drug, building the internet's democracy is the end game. `,
-      `Im 5 years deep figuring out how to contribute. Learning chess pieces before playing the game. 5 years chasing the wave of Bitcoin. I’ll use web 3.0 to build the future I believe in. The only thing I dont know is when that will be.`,
-      `When I heard your inviting words, “Betting against engineering is betting against life itself”. I realized the time is now. I want to be on your team. Hoodies are in charge now. Fuck your suit.`,
+      `I'm 5 years deep into figuring out how my way to contribute. Learning chess pieces before playing the game. 5 years chasing the wave of Bitcoin. I’ll use web 3.0 to build the future I believe in. It's not if, but when.`,
+      `When I watched your videos words, “Betting against engineering is betting against life itself”. I realized the time is now. I'm in. Hoodies are in charge now.`,
+      `How can I help?`,
     ],
     extrasWidth: `sm:w-14`,
   },
@@ -95,6 +97,7 @@ export default function BlurbList() {
           return <Blurb key={`blurd-${index}`} data={blurb} />
         })}
       </div>
+      <ContactCard/>
     </div>
   )
 }
