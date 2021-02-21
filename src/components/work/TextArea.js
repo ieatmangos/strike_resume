@@ -21,7 +21,7 @@ const TextArea = ({ title, subtitle, li, link, bg }) => {
         {li.map(li => (
           <li className={`${liStyle}`}>
             <Dot />
-        <span className='ml-2'>{li}</span>{li}
+        <span className='ml-2'>{li}</span>
           </li>
         ))}
       </ul>
