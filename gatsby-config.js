@@ -15,8 +15,8 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        name: "Loubier: Stike Resume",
-        short_name: "Loubier: Stike Resume",
+        name: "Loubier: Strike Resume",
+        short_name: "Loubier: Strike Resume",
         start_url: "/",
         icon: "static/icon.svg",
       },
