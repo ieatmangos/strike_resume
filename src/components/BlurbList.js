@@ -6,14 +6,14 @@ const data = [
     year: 1991,
     age: 0,
     text: `Gabriel Loubier`,
-    orientation: `flex gap-4 items-center mr-auto sm:mr-0 `,
+    orientation: `flex flex-col sm:flex-row  gap-4 items-center mr-auto sm:mr-0 `,
     width: `w-12`,
   },
   {
     year: 2008,
     age: 16,
     text: `School newspaper. I learned if you pursue knowledge it’s not work, it’s fun.`,
-    orientation: `flex gap-4 items-start sm:ml-10`,
+    orientation: `flex flex-col sm:flex-row  gap-4 items-start sm:ml-10`,
     width: `sm:w-13`,
   },
   {
