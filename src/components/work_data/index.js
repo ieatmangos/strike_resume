@@ -11,6 +11,8 @@ import tb3 from "../../images/work/tb-3.png"
 import bears4 from "../../images/work/bears-4.png"
 import bears2 from "../../images/work/bears-2.png"
 import bears3 from "../../images/work/bears-3.png"
+import bears11 from "../../images/work/bears-11.png"
+import bears12 from "../../images/work/bears-12.png"
 export const etData = {
   title: "Entangled Tastes",
   subtitle: "Personal: Community Grown Food Pairing, React and Firebase",
@@ -45,7 +47,7 @@ export const sbData = {
     "Stamp out section wireframes and write Tailwind css inline to customize.",
     "Drag sections together to make pages.",
     "Export clean and responsive HTML and CSS.",
-    "I wrote every line of code for this project at work."
+    "My code start to finish"
   ],
   link: null,
   bg: "bg-sb",
@@ -109,8 +111,12 @@ export const bearsData = {
       position: "",
     },
     {
-      src: bears3,
-      position: "col-span-2 ",
+      src: bears11,
+      position: " ",
+    },
+    {
+      src: bears12,
+      position: "",
     },
   ],
 }
