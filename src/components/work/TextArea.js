@@ -9,7 +9,7 @@ const TextArea = ({ title, subtitle, li, link, bg }) => {
       <div className="flex items-centergroup">
         <h3 className="text-4xl text-black-100  mr-4 ">{title}</h3>
         {link && (
-          <a href={link}>
+          <a target="_blank" rel="noreferrer noopener" href={link}>
             <LinkOut />
           </a>
         )}
@@ -19,9 +19,9 @@ const TextArea = ({ title, subtitle, li, link, bg }) => {
       <p className="text-2xl text-gray-300">{subtitle}</p>
       <ul className="ml-4 md:ml-8 my-6">
         {li.map(li => (
-          <li className={`${liStyle}`}>
+          <li key={li} className={`${liStyle}`}>
             <Dot />
-        <span className='ml-2'>{li}</span>
+            <span className="ml-2">{li}</span>
           </li>
         ))}
       </ul>

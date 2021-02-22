@@ -1,7 +1,5 @@
 import React from "react"
 import SEO from "./SEO"
-import Nav from "./Nav"
-import Footer from "./Footer"
 const Layout = ({ children }) => {
   return (
     <>

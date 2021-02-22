@@ -1,17 +1,28 @@
 import React from "react"
 import LinkOut from "./LinkOut"
 
-const CTA = ({ name, link, bg }) => {
+const CTA = ({ name, link }) => {
   return (
     <div className="mx-auto py-5 mb-7 flex justify-end border-b ">
-      <a target="_blank" rel="noreferrer" href={link ? link : "/"}>
-        <div className="flex items-center px-6 md:px-8 lg:px-10">
-          <p className="text-lg mr-4 text-gray-400 border-b border-gray-500">
+      <div className="flex items-center px-6 md:px-8 lg:px-10">
+        <p className="text-lg mr-4 text-gray-400 border-b border-gray-500">
+          <a
+            target="_blank"
+            rel="noreferrer noopener"
+            href={link ? link : "/"}
+          >
             {name}
-          </p>
-          {link && <LinkOut />}
-        </div>
-      </a>
+          </a>
+        </p>
+        <a
+            className=""
+            target="_blank"
+            rel="noreferrer noopener"
+            href={link ? link : "/"}
+          >
+        {link && <LinkOut />}
+        </a>
+      </div>
     </div>
   )
 }
