@@ -62,7 +62,7 @@ export const data = [
     {
       year: 2020,
       age: 28,
-      text: `Front End Developer at Trellis, an ecommerce agency. My client work includes building headless Next and Gatsby sites. My recent promotion to their Innovation Team has me building a drag and drop ‘website builder’ with inline editing. “Designers handoff code, not figma files”. It's sick, There’re screenshots below.`,
+      text: `Frontend Software Engineer at Trellis, an ecommerce agency. My client work includes building headless Next and Gatsby sites. My recent promotion to their Innovation Team has me building a drag and drop ‘website builder’ with inline editing. “Designers handoff code, not figma files”. It's sick, There’re screenshots below.`,
       width: `sm:w-14`,
       orientation: `flex flex-col gap-5 ml-auto`,
     },

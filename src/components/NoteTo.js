@@ -14,7 +14,7 @@ export default function NoteTo() {
           <p className="text-gray-400 max-w-14 ml-2 mt-4">
           Like many, I still have a lot to learn, but I will contribute to the internet's democracy and the construction of a better, fairer future. I heard you are looking for a dedicated team with a similar vision. I want to join. Please consider this my application for a position as
             <span className="text-gray-800 border-b border-gray-200 mx-1">
-               Front End Developer
+               Frontend Software Engineer
             </span>
             at Strike.
           </p>
